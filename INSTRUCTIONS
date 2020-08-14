@@ -1,0 +1,68 @@
+##  The default system is on you PC computer/workstions or pbs system
+##  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 1, download the seisNoise and set the fold location of seisNoise in your .bashrc 
+# -------------------  
+# (1) download devel branch seisNoise from github
+git clone https://github.com/ustcchaozhang/seisNoise 
+# (2) set seisNoise path in your .bashrc
+echo '# set seisNoise path' >> ~/.bashrc
+echo 'export seisNoise=/path/of/seisNoise' >> ~/.bashrc 
+source ~/.bashrc
+echo $seisNoise
+# make sure $seisNoise is the same as '/path/to/seisNoise' 
+# -------------------
+# 2, compile and install the forward tool "specfem2d" with ifort and mpich (exist in $seisNoise/specfem2d)
+# -------------------
+  (1) install the ifort compiler and mpich required for this version specfem2d
+  (2) compile and install the specfem2d (please read the manual of specfem2d followed as: https://specfem2d.readthedocs.io/en/latest/)  
+cd $seisNoise/specfem2d
+# ~~~~ ifort compiler (recommanded)~~~~~~~~~
+## with mpi for parallel simulation (mpich tool requred)
+./configure FC=ifort --with-mpi
+## without mpi for serial simulation 
+./configure FC=ifort 
+# ~~~~ or gfortran compiler ~~~~  
+./configure FC=gfortran
+# compile
+make all
+
+# -------------------
+# 3, compile the lib used for waveform data processing during fwi (exist in $seisNoise/seisDD_noise/lib)
+# -------------------
+cd $seisNoise/seisNoise/lib
+make -f make_lib clean
+make -f make_lib
+
+# -------------------
+# 4, run the example (exist in $seisNoise/JGR2018/FwiEGF_check)
+the example is the checkboard test by seisNoise in the fig9:
+# Zhang C., Yao H., Liu Q., Zhang P., Yuan Y., Feng J., Fang L., 2018. Linear array ambient noise adjoint tomography reveals intense crust-mantle interactions in North China Craton. J. Geophys. Res. , 123, DOI: 10.1002/2017JB015019
+# -------------------
+(1) the profile introduction in $seisNoise/JGR2018/FwiEGF_check
+## model_init_bin  -- the initial model: initial gll binary model, here is a homogeneous model 
+## model_true_bin  -- the target model:  target gll binary model,  here is a checkboard  model , optional if observed data exist (for sythentic data)
+## data            -- the observed data (for field data)
+## submit_job      -- the workplace for seisNoise
+#  DATA            -- the profile for specfem2d including:  interfaces.dat  Par_file  SOURCE  sources.dat  STATIONS
+#  parameter       -- inversion parameter file including path setting and inversion parameters (important, see the detail in parameter)
+#  step1_submit.sh -- the bash script for the 1st step for inversion: compile the necessary tools and lib mentioned in 2 and 3 (specfem2d and lib) 
+#  step2_submit.sh -- submit the project to your system and run this code 
+   
+(2) how to run the example (it's easy)
+bash step1_submit.sh   ## check that there is no bug
+bash step2_submit.sh   ## will see the result in $seisNoise/JGR2018/FwiEGF_check/submit_job/RESULT
+
+note: (i)  in my example, we just set the NSRC=1, iter_end=1 to make you can run this code as soon as possible
+      if there is no bug until you finished this easy test. please set the NSRC=49, iter_end=14 to run the whole invesion
+      (ii) the default system is 'PC' (means in your own computer or workstions), if you have pbs system, you can set system='pbs' 
+
+(3)  plot binary kernel or model file 
+python $seisNoise/auxiliaries/visualize/plot_bin /path/to/files parameters nproc  # parameters: can choosen vs or vp or rho ; npro: the number of processor in your model
+## python version: Python 2.7.11
+
+
+
+
+
+
+
