@@ -1,0 +1,2068 @@
+
+Begin optimization report for: MT_MEASURE
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(67,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(68,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(69,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(83,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(73,5)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(74,5)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(77,5)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(82,5)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(83,5)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(77,5)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(92,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(95,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(103,5)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(111,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(127,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(128,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(129,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(130,9)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(129,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(136,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(147,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(148,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(149,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(150,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(154,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(154,5)
+   <Peeled, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(154,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(154,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(154,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(155,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(155,5)
+   <Peeled, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(155,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(155,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(155,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(171,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(173,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(174,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(176,9)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(180,9)
+         remark #15301: FUSED LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(181,9)
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(180,9)
+      <Remainder>
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(184,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(185,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(186,9)
+         remark #15301: FUSED LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(187,9)
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(186,9)
+      <Remainder>
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(194,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(201,18)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(206,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(218,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(219,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(221,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(221,9)
+   remark #15300: LOOP WAS VECTORIZED
+
+   LOOP BEGIN at src/ma_sub.f90(226,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(238,9)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(221,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: WRITE_TRANS
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1012,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1013,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1014,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1015,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1018,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1018,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1018,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1018,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1046,5) inlined into src/ma_sub.f90(1024,10)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1054,13) inlined into src/ma_sub.f90(1024,10)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1054,13) inlined into src/ma_sub.f90(1024,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1054,13) inlined into src/ma_sub.f90(1024,10)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1061,13) inlined into src/ma_sub.f90(1024,10)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1061,13) inlined into src/ma_sub.f90(1024,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1061,13) inlined into src/ma_sub.f90(1024,10)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1028,21)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1028,21)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1028,21)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1028,21)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1028,21)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1029,22)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1029,22)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1029,22)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1029,22)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1029,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1031,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1031,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1031,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1031,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: MT_ADJ
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(317,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(321,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(321,5)
+   <Peeled, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(321,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(321,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(321,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(326,23)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(326,23)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(326,23)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(326,23)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(335,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(335,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(336,5)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(335,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(335,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(335,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(341,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(341,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(341,9)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(341,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(341,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(349,26)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(349,26)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(350,26)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(349,26)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(349,26)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(389,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(390,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(404,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(395,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(395,9)
+   <Remainder>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(395,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(398,14)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(398,14)
+         remark #15300: LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(398,14)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(398,14)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(398,14)
+   <Remainder>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(398,14)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(401,9)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(401,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(401,9)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(402,9)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(402,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(402,9)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(403,9)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(403,9)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(404,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(403,9)
+   <Alternate Alignment Vectorized Loop>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(403,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(410,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(412,9)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(430,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(430,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(430,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(431,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(431,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(431,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(469,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(433,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(434,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(436,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(437,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(439,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(453,9)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(456,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(453,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(465,9)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(466,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(468,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(469,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(465,9)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: COMPUTE_VEL
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1174,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: MT_ADJ_DD
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(523,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(527,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(527,5)
+   <Peeled, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(527,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(527,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(527,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(532,23)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(532,23)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(532,23)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(532,23)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(541,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(542,5)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(547,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(547,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(547,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(547,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(554,28)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(554,28)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(555,28)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(554,28)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(554,28)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(561,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(561,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(561,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(580,22)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(580,22)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(581,22)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(580,22)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(580,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(591,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(592,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(593,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(594,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(595,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(616,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(600,9)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(601,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(600,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(604,14)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(604,14)
+         remark #15300: LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(604,14)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(604,14)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(604,14)
+   <Remainder>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(604,14)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(605,14)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(605,14)
+         remark #15300: LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(605,14)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(605,14)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(605,14)
+   <Remainder>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(605,14)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(609,9)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(609,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(609,9)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(610,9)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(610,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(610,9)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(611,9)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(611,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(611,9)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(612,9)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(612,9)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(612,9)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(613,9)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(614,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(615,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(616,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(613,9)
+   <Alternate Alignment Vectorized Loop>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(613,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(624,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(626,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(629,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(631,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(633,9)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(639,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(639,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(639,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(640,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(640,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(640,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(641,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(641,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(641,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(642,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(642,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(642,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(716,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(647,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(648,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(649,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(650,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(651,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(652,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(653,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(654,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(656,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(657,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(658,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(659,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(661,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(682,9)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(687,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(682,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(692,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(692,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(696,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(696,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(710,9)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(712,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(714,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(716,9)
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(710,9)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: CC_SIMILARITY
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(757,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(757,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(757,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(758,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(758,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(758,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(772,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(772,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(772,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(773,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(773,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(785,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(785,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(785,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(786,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(786,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1379,5) inlined into src/ma_sub.f90(791,10)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1379,5) inlined into src/ma_sub.f90(791,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1379,5) inlined into src/ma_sub.f90(791,10)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1390,19) inlined into src/ma_sub.f90(791,10)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1390,19) inlined into src/ma_sub.f90(791,10)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1390,19) inlined into src/ma_sub.f90(791,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1403,5) inlined into src/ma_sub.f90(791,10)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1408,26) inlined into src/ma_sub.f90(791,10)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1408,26) inlined into src/ma_sub.f90(791,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1408,26) inlined into src/ma_sub.f90(791,10)
+   <Remainder>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1408,26) inlined into src/ma_sub.f90(791,10)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1412,5) inlined into src/ma_sub.f90(791,10)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1412,5) inlined into src/ma_sub.f90(791,10)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: WINDOW_TAPER
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1324,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1324,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1324,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: XCORR_CALC
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1379,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1379,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1379,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1390,19)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1390,19)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1390,19)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1390,19)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1403,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1408,26)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1408,26)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1408,26)
+   <Remainder>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1408,26)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1412,5)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1412,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1443,23)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1443,23)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1443,56)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1443,23)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1443,23)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: FREQUENCY_LIMIT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(814,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(815,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(815,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(815,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(822,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(822,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(833,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(833,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(858,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(858,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: CC_WINDOW
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1118,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1118,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1118,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1120,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1120,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1120,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: WRITE_PHASE
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(960,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(963,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(963,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(963,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(963,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(969,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(978,13)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(978,13)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(978,13)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(984,13)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(984,13)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(984,13)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: SMOOTH_PHASE
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1046,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1054,13)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1054,13)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1054,13)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1061,13)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1061,13)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1061,13)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: UNWRAP_PHASE
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1082,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1096,9)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1096,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1096,9)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: CC_WINDOW_INVERSE
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1147,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1147,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1147,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1149,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1149,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1149,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: COMPUTE_ACC
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(1196,10)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(1196,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(1196,10)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(1196,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(1196,10)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(1196,10)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(1196,10)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(1196,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(1199,10)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(1199,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(1199,10)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(1199,10)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(1199,10)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(1199,10)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: WINDOW
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1221,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1221,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1221,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1222,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1222,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1222,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1224,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1237,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1237,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1237,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1237,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: WINDOW_MUTE
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1257,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1257,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1257,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1258,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1258,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1286,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1302,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1302,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1302,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1302,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: XCONV
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1484,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1488,5)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1488,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1497,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1497,5)
+   <Peeled, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1497,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1497,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1497,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: GAUSSMF
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1516,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1516,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1516,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1516,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: GAUSPULS
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1516,5) inlined into src/ma_sub.f90(1534,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1516,5) inlined into src/ma_sub.f90(1534,10)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1516,5) inlined into src/ma_sub.f90(1534,10)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1516,5) inlined into src/ma_sub.f90(1534,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1536,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1536,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1536,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1536,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: WT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1573,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1573,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1573,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1591,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1592,9)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at src/ma_sub.f90(1592,9)
+         remark #15300: LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at src/ma_sub.f90(1592,9)
+      <Remainder>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1594,9)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1594,9)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1601,12)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1601,12)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1601,12)
+   <Alternate Alignment Vectorized Loop>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1601,12)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1604,9)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1604,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1604,9)
+   <Alternate Alignment Vectorized Loop>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1604,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1610,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1610,9)
+   <Peeled, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1610,9)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1610,9)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1610,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: BANDPASS
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1642,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1642,5)
+   <Peeled, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1642,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1642,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1642,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1653,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1653,5)
+   <Peeled, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1653,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1653,5)
+   <Alternate Alignment Vectorized Loop, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1653,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: CC_ERROR
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub.f90(1118,5) inlined into src/ma_sub.f90(907,10)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1118,5) inlined into src/ma_sub.f90(907,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1118,5) inlined into src/ma_sub.f90(907,10)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1120,5) inlined into src/ma_sub.f90(907,10)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1120,5) inlined into src/ma_sub.f90(907,10)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1120,5) inlined into src/ma_sub.f90(907,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(910,10)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(910,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub.f90(1174,5) inlined into src/ma_sub.f90(910,10)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(910,10)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(910,10)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(1176,5) inlined into src/ma_sub.f90(910,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(913,22)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(914,22)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(916,22)
+LOOP END
+
+LOOP BEGIN at src/ma_sub.f90(913,22)
+<Remainder>
+LOOP END
+===========================================================================

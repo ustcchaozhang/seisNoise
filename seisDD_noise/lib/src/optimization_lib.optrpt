@@ -1,0 +1,333 @@
+
+Begin optimization report for: SD
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/optimization_lib.f90(15,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/optimization_lib.f90(15,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(15,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(18,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(18,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(18,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(18,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: NLCG
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/optimization_lib.f90(39,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/optimization_lib.f90(39,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(39,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(45,15)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(45,15)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(46,15)
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(45,15)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(45,15)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(49,15)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(49,15)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(50,15)
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(49,15)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(49,15)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(53,15)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(53,15)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(54,22)
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(53,15)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(53,15)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(57,15)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(57,15)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(58,22)
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(57,15)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(57,15)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(70,13)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(70,13)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(70,13)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(70,13)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(74,17)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(74,17)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(75,15)
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(74,17)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(74,17)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(82,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(82,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(82,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(82,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: LBFGS
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/optimization_lib.f90(104,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/optimization_lib.f90(104,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(104,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(107,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/optimization_lib.f90(107,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(107,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(110,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/optimization_lib.f90(111,18)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(111,18)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(111,18)
+   <Alternate Alignment Vectorized Loop>
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(111,18)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(112,25)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(112,25)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(113,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(113,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(116,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(116,12)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(117,9)
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(116,12)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(116,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(118,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(118,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(121,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/optimization_lib.f90(122,24)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(122,24)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(123,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(123,5)
+   <Remainder>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/optimization_lib.f90(123,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(127,10)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(128,11)
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(127,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(130,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(130,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(130,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(130,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(134,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/optimization_lib.f90(134,5)
+<Remainder>
+LOOP END
+===========================================================================

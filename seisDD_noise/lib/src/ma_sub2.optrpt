@@ -1,0 +1,375 @@
+
+Begin optimization report for: FFT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub2.f90(85,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(85,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(91,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(91,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: FFTINV
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub2.f90(148,5) inlined into src/ma_sub2.f90(117,10)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(148,5) inlined into src/ma_sub2.f90(117,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(85,9) inlined into src/ma_sub2.f90(120,10)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(85,9) inlined into src/ma_sub2.f90(120,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(91,9) inlined into src/ma_sub2.f90(120,10)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(91,9) inlined into src/ma_sub2.f90(120,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(122,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(122,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(122,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: RSPEC
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub2.f90(148,5)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(148,5)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(148,5)
+<Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(148,5)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: STAPER
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub2.f90(200,8)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(200,8)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(200,8)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(200,8)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(200,8)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(212,8)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(212,8)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(212,8)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(212,8)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(220,8)
+   remark #15301: OUTER LOOP WAS VECTORIZED
+
+   LOOP BEGIN at src/ma_sub2.f90(223,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(220,8)
+<Remainder>
+
+   LOOP BEGIN at src/ma_sub2.f90(223,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(234,8)
+   remark #15301: OUTER LOOP WAS VECTORIZED
+
+   LOOP BEGIN at src/ma_sub2.f90(237,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(234,8)
+<Remainder>
+
+   LOOP BEGIN at src/ma_sub2.f90(237,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(251,8)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub2.f90(254,8)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(254,8)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(254,8)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(261,8)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(261,8)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(261,8)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(264,8)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(264,8)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(264,8)
+   <Alternate Alignment Vectorized Loop>
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(264,8)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TSTURM
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub2.f90(302,8)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(302,8)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(302,8)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(325,8)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(325,8)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(325,8)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(369,7) inlined into src/ma_sub2.f90(330,10)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub2.f90(376,8) inlined into src/ma_sub2.f90(330,10)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(337,8)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(337,8)
+<Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(342,8)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(342,8)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(342,8)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: ROOT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub2.f90(369,7)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub2.f90(376,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: HILBERT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/ma_sub2.f90(420,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/ma_sub2.f90(420,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/ma_sub2.f90(420,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(421,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(421,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(421,5)
+<Alternate Alignment Vectorized Loop>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(421,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(421,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(426,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(426,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(426,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(426,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(430,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(430,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(430,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(430,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(432,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(432,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(432,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(432,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(438,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/ma_sub2.f90(438,5)
+<Remainder>
+LOOP END
+===========================================================================

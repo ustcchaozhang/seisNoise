@@ -1,0 +1,2168 @@
+
+Begin optimization report for: MISFIT_ADJ_AD
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(33,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(33,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(33,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(189,5) inlined into src/adjoint_lib.f90(50,14)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(190,5) inlined into src/adjoint_lib.f90(50,14)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(189,5) inlined into src/adjoint_lib.f90(50,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(204,19) inlined into src/adjoint_lib.f90(50,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(204,19) inlined into src/adjoint_lib.f90(50,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(226,9) inlined into src/adjoint_lib.f90(50,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(226,9) inlined into src/adjoint_lib.f90(50,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(229,9) inlined into src/adjoint_lib.f90(50,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(229,9) inlined into src/adjoint_lib.f90(50,14)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: MT_MISFIT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(932,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(933,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(932,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(951,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(951,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(951,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(953,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(953,9)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(953,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(972,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(972,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(972,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(983,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(984,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(991,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(984,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(984,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(984,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(984,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(984,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(984,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1054,26)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1054,26)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1054,26)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1054,26)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1071,13)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1083,17)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1083,17)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1085,17)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1085,17)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1097,17)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1098,56)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1098,56)
+      remark #15301: FUSED LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1098,110)
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1098,56)
+   <Remainder>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1098,56)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1109,25)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1109,25)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1109,79)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1109,25)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1109,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1122,14)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1122,14)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1122,14)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(296,5) inlined into src/adjoint_lib.f90(1132,14)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(296,5) inlined into src/adjoint_lib.f90(1132,14)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(296,5) inlined into src/adjoint_lib.f90(1132,14)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(304,5) inlined into src/adjoint_lib.f90(1132,14)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(305,5) inlined into src/adjoint_lib.f90(1132,14)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(304,5) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(325,25) inlined into src/adjoint_lib.f90(1132,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(325,25) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(354,18) inlined into src/adjoint_lib.f90(1132,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(354,18) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(354,18) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(356,13) inlined into src/adjoint_lib.f90(1132,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(356,13) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(356,13) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(360,17) inlined into src/adjoint_lib.f90(1132,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(360,17) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(360,17) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(362,13) inlined into src/adjoint_lib.f90(1132,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(362,13) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(362,13) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(366,9) inlined into src/adjoint_lib.f90(1132,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(366,9) inlined into src/adjoint_lib.f90(1132,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(425,14) inlined into src/adjoint_lib.f90(1132,14)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(425,14) inlined into src/adjoint_lib.f90(1132,14)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(425,14) inlined into src/adjoint_lib.f90(1132,14)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: CC_MISFIT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(296,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(296,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(296,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(304,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(305,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(304,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(325,25)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(325,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(354,18)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(354,18)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(354,18)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(356,13)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(356,13)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(356,13)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(360,17)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(360,17)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(360,17)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(362,13)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(362,13)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(362,13)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(366,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(366,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(425,14)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(425,14)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(425,14)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: ET_MISFIT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(487,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(488,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(487,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(492,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(492,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(492,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(493,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(493,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(493,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(494,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(494,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(494,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(495,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(495,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(495,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(496,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(496,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(496,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(497,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(497,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(497,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(500,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(500,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(500,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(503,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(503,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(503,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(506,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(506,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(506,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(509,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(509,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(509,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(517,25)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(517,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(549,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(549,14)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(549,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(552,24)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(552,24)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(553,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(553,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(553,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(556,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(556,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(560,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(561,9)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(560,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(560,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(574,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(574,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: ED_MISFIT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(634,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(635,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(634,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(639,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(639,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(639,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(640,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(640,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(640,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(641,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(641,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(641,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(642,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(642,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(642,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(643,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(643,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(643,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(644,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(644,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(644,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(647,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(647,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(647,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(650,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(650,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(650,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(653,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(653,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(653,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(656,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(656,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(656,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(662,22)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(662,22)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(662,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(670,16)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(670,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(691,24)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(691,24)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(692,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(692,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(692,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(695,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(695,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(699,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(700,9)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(699,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(699,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(713,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(713,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: EP_MISFIT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(774,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(775,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(774,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(779,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(779,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(779,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(780,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(780,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(780,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(781,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(781,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(781,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(782,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(782,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(782,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(783,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(783,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(783,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(784,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(784,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(784,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(785,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(785,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(785,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(786,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(786,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(786,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(789,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(789,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(789,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(791,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(791,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(791,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(794,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(794,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(794,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(796,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(796,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(796,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(799,19)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(799,19)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(800,19)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(800,19)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(803,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(804,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(803,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(810,22)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(811,13)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(810,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(819,16)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(820,13)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(819,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(843,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(844,9)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(843,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(849,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(849,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(849,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(852,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(852,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: WD_MISFIT
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(189,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(190,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(189,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(204,19)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(204,19)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(226,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(226,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(226,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(229,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(229,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: MISFIT_ADJ_DD
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(102,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(102,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(102,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(103,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(103,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(103,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: CC_MISFIT_DD
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(1194,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1195,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1194,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1207,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1208,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1207,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1259,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1259,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1259,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1260,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1260,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1260,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1261,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1261,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1261,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1262,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1262,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1262,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1291,14)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1291,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1294,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1295,9)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1294,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1294,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1298,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1298,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1299,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1299,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: WD_MISFIT_DD
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(1365,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1366,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1365,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1378,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1379,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1378,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1387,22)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1387,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1394,16)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1394,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1408,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1408,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1408,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1409,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1409,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1409,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1410,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1410,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1410,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1411,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1411,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1411,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1414,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1415,9)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1414,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1414,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1418,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1418,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1419,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1419,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: EP_MISFIT_DD
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(1492,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1493,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1492,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1505,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1506,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1505,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1511,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1511,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1511,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1512,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1512,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1512,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1513,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1513,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1513,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1514,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1514,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1514,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1515,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1515,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1515,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1516,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1516,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1516,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1517,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1517,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1517,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1518,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1518,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1518,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1519,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1519,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1519,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1520,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1520,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1520,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1523,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1523,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1523,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1525,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1525,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1525,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1528,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1528,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1528,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1530,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1530,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1530,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1533,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1533,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1533,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1535,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1535,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1535,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1538,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1538,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1538,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1540,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1540,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1540,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1543,20)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1543,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1544,20)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1544,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1545,20)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1545,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1546,20)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1546,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1550,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1552,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1550,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1558,22)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1560,13)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1558,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1569,16)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1570,13)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1569,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1575,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1575,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1575,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1576,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1576,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1576,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1577,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1577,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1577,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1578,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1578,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1578,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1580,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1580,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1580,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1581,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1581,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1581,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1582,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1582,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1583,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1583,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1587,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1588,9)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1587,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1587,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1591,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1591,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1591,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1592,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1592,9)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1592,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1593,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1593,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1594,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1594,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1598,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1599,9)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1598,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1598,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1602,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1602,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1603,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1603,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: MT_MISFIT_DD
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at src/adjoint_lib.f90(1698,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1699,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1698,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1711,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1712,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1711,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1740,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1740,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1740,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1742,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1742,9)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1742,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1752,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1752,9)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1752,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1754,9)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1754,9)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1754,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1783,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1783,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1783,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1784,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1784,5)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1784,5)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1797,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1798,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1805,5)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1798,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1798,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1798,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1798,5)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1798,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1798,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1856,9)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1857,9)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1891,13)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1913,13)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1913,13)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1913,13)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1914,13)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at src/adjoint_lib.f90(1914,13)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at src/adjoint_lib.f90(1914,13)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1917,13)
+   remark #15301: FUSED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1918,13)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1919,13)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1920,13)
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1917,13)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1917,13)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1925,17)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1925,17)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1926,17)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1926,17)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1930,17)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1930,17)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1931,17)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at src/adjoint_lib.f90(1931,17)
+<Remainder>
+LOOP END
+===========================================================================

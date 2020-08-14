@@ -1,0 +1,109 @@
+#!/bin/bash
+
+# paper Zhang et.al,JGR,2018, Checkboard test(Fig.9)
+### job info
+Job_title='FwiEGF_check'
+istest=false              # true--just a test for one source; false--run for all sources
+forward_type='sem'        # run 'sem' or 'fksem' 
+system='PC'               # slurm, pbs or your PC computer/workstation
+#system='slurm'    
+queue='debug' 
+max_nproc_per_node=16 # max number of processors per node according to your system/PC computer (generally is 8 or 16)
+NPROC_SPECFEM=8       # the number of processors you want to run for each source (e.g. mpirun -n $NPROC_SPECFEM ./bin/xspecfem2d)
+SOT=1                 # just use in 'PC'system, the number of sources you want to run at the same time, SOT <= max_nproc_per_node/NPROC_SPECFEM 
+WallTime=00:20:00   
+compiler='ifort'      # chose the compiler, ifort (recommended) or gfortran
+GPU_MODE=false 
+job='inversion'       # # modeling(just run the forward),kernel(just run the kernels),inversion (run the inversion including the forward and kernels)
+solver='specfem2D'    # specfem2D, specfem3D
+ReStart=true          # true--Relaunch all files; false--Start from current status
+
+### paths
+package_path="$seisDD/seisDD_noise"                                     # !the folder location for seisDD_noise
+specfem_path="$seisDD/specfem2d"                                        # !the folder location for specfem2d
+
+### observations 
+ExistDATA=false       # !for field data, if ExistDATA=true, provide path, otherwise ignore
+# if ExistDATA=true, provide path, otherwise ignore
+DATA_DIR="$seisDD/JGR2018/FwiEGF_check/data"                            # !for synthetic test, the location for data
+
+### model paths
+target_velocity_dir="$seisDD/JGR2018/FwiEGF_check/model_true_bin"       # !the location for target  model
+initial_velocity_dir="$seisDD/JGR2018/FwiEGF_check/model_init_bin"      # !the location for initial model
+
+### forward modeling
+NSTEP=12000               # the NSTEP in the forward using specfem2d (should kept in the same with the parameter of 'nt' inDATA/Par_file)
+# sample rate                    
+deltat=0.02               # Dt (should kept in the same with the parameter of 'deltat' in DATA/Par_file),  the time length of waveform T= NSTEP * deltat        
+f0=0.2                    # the domain freq for SOURCE (should kept in the same with the parameter of 'f0' in DATA/SOURCE
+NREC=49                   # !number of receivers
+NSRC=1                    # !number of sources, you can set 1 for test, 49 for all inverstion
+## measurement component (x,y,z,p)
+data_list='z'
+
+### kernel construction
+# measurement type (CC WD ET ED IP MT MA) 
+measurement_list=MT        # multi-taper
+# misfit_type (AD, DD, AD+DD) 
+misfit_type_list=AD        # AD: adjoint tomo
+# similarity threshold for DD 
+cc_threshold=0.90
+
+### inversion parameters
+kernel_list='beta_kernel,alpha_kernel,rho_kernel'  # the kernel you want to generate
+precond=true                                       # use the preconditioner, otherwise false
+precond_list='hessian2_kernel'                     # the type of preconditioner
+z_precond=0.0
+model_list='vs'                                    # the parameter to be inverted, 'vs' or 'vp' or 'rh0',or 'vs,vp,rho'
+
+# empire_function
+empire_function=true          # true--use the empirical function to generate the vp and rho based on vs; false -- not use
+
+# line search for optimal step for each iteration
+initial_step_length=0.01     
+max_step=10
+
+# optimization(SD CG QN)
+opt_scheme=CG  # CG:Conjugate gradient method   
+
+# iteration limit             # the number of iterations  
+iter_start=1
+iter_end=1
+
+### preprocessing
+# mute
+MUTE_NEAR=false
+offset_near=100000            # the waveform will not be used < offset_near
+# wavelet transformation
+Wscale=0
+wavelet_path="$seisDD/seisDD/lib/WT_basis"
+# time window using the velocity slope to mute the body wave or surface wave
+TIME_WINDOW=true
+VEL_TOP=3500
+VEL_BOT=2900
+# bandpass filter
+IS_BANDPASS=true               # true--use bandpass filter; false--not use
+num_filter=4                   # the number of period band    
+Fmin2=35                       # period band: 1
+Fmax2=20
+Fmin3=30                       # period band: 2
+Fmax3=15
+Fmin4=20                       # period band: 3
+Fmax4=10
+Fmin5=15                       # period band: 4
+Fmax5=6
+
+misfit_value_min=5             # # the max deltat T we can use, if the misfit_value between the synthetic data and observed data is more than 5s, this waveform will not be used 
+
+
+#### postprocessing
+# smooth
+smooth=true
+sigma_x=10000       # the width for gauss filter for kernel:x
+sigma_z=5000        # the width for gauss filter for kernel:z
+sigma_x_rate=0.0
+sigma_z_rate=0.0
+
+## Display details
+DISPLAY_DETAILS=true
+DISPLAY_TRACES=true
