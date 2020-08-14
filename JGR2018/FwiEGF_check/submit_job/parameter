@@ -19,17 +19,17 @@ solver='specfem2D'    # specfem2D, specfem3D
 ReStart=true          # true--Relaunch all files; false--Start from current status
 
 ### paths
-package_path="$seisDD/seisDD_noise"                                     # !the folder location for seisDD_noise
-specfem_path="$seisDD/specfem2d"                                        # !the folder location for specfem2d
+package_path="$seisNoise/seisDD_noise"                                     # !the folder location for seisDD_noise
+specfem_path="$seisNoise/specfem2d"                                        # !the folder location for specfem2d
 
 ### observations 
 ExistDATA=false       # !for field data, if ExistDATA=true, provide path, otherwise ignore
 # if ExistDATA=true, provide path, otherwise ignore
-DATA_DIR="$seisDD/JGR2018/FwiEGF_check/data"                            # !for synthetic test, the location for data
+DATA_DIR="$seisNoise/JGR2018/FwiEGF_check/data"                            # !for synthetic test, the location for data
 
 ### model paths
-target_velocity_dir="$seisDD/JGR2018/FwiEGF_check/model_true_bin"       # !the location for target  model
-initial_velocity_dir="$seisDD/JGR2018/FwiEGF_check/model_init_bin"      # !the location for initial model
+target_velocity_dir="$seisNoise/JGR2018/FwiEGF_check/model_true_bin"       # !the location for target  model
+initial_velocity_dir="$seisNoise/JGR2018/FwiEGF_check/model_init_bin"      # !the location for initial model
 
 ### forward modeling
 NSTEP=12000               # the NSTEP in the forward using specfem2d (should kept in the same with the parameter of 'nt' inDATA/Par_file)
@@ -76,7 +76,7 @@ MUTE_NEAR=false
 offset_near=100000            # the waveform will not be used < offset_near
 # wavelet transformation
 Wscale=0
-wavelet_path="$seisDD/seisDD/lib/WT_basis"
+wavelet_path="$seisNoise/seisDD_noise/lib/WT_basis"
 # time window using the velocity slope to mute the body wave or surface wave
 TIME_WINDOW=true
 VEL_TOP=3500
