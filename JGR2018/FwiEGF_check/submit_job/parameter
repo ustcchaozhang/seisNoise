@@ -9,7 +9,7 @@ system='PC'               # slurm, pbs or your PC computer/workstation
 #system='slurm'    
 queue='debug' 
 max_nproc_per_node=16 # max number of processors per node according to your system/PC computer (generally is 8 or 16)
-NPROC_SPECFEM=8       # the number of processors you want to run for each source (e.g. mpirun -n $NPROC_SPECFEM ./bin/xspecfem2d)
+NPROC_SPECFEM=4       # the number of processors you want to run for each source (e.g. mpirun -n $NPROC_SPECFEM ./bin/xspecfem2d)
 SOT=1                 # just use in 'PC'system, the number of sources you want to run at the same time, SOT <= max_nproc_per_node/NPROC_SPECFEM 
 WallTime=00:20:00   
 compiler='ifort'      # chose the compiler, ifort (recommended) or gfortran
