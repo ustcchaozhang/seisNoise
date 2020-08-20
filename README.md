@@ -1,5 +1,5 @@
 
-# seisNoise
+# seisNoise (Developed by chao zhang)
   
 Linear array ambient noise adjoint seismic tomography
 
