@@ -1,0 +1,26 @@
+# How to run specfem2d from external tomo file in  DATA/tomo_file.xyz and generate the gll binary model for seisNoise
+
+
+# 1, copy the generate_model.m to generate the tomo_file.xyz in ./DATA
+
+cp ../../../../auxiliaries/tool/generate_model.m   ./
+
+# 2, edit the generate_model.m according to your model and mrun generate_model 
+
+mrun generate_model  # generate the tomo_file.xyz in ./DATA
+
+# 3, reset the Pafile in ./DATA as followed:
+
+MODEL            = default     # 
+SAVE_MODEL       = binary      # save as gll binary model
+#1 1 1000.d0 2000.d0 900.0d0 0 0 9998.d0 9998.d0 0 0 0 0 0 0  # use the internal model
+1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0                                # use the external model: in DATA/tomo_file.xyz
+
+# 4, run the specfem2d 
+
+
+
+
+
+
+
