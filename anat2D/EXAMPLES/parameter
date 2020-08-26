@@ -1,0 +1,109 @@
+#!/bin/bashi
+
+### job info
+Job_title='checkerboard'
+system='slurm'  # slurm, lsf or pbs
+#system='slurm'
+queue='compute'   # serial,tiger(princeton) ...
+max_nproc_per_node=40 # max number of processors per node
+ntasks=10
+NPROC_SPECFEM=4
+WallTime=00:30:00
+compiler='ifort'
+GPU_MODE=false
+job='inversion' # modeling,kernel,inversion
+solver='specfem2D' # specfem2D, specfem3D
+ReStart=true   # true--Relaunch all files; false--Start from current status
+
+### paths
+package_path="$anat2D/anat2D"
+specfem_path="$PROJECT/software/specfem2d"
+
+### observations 
+ExistDATA=false
+# if exist provide path, otherwise ignore
+DATA_DIR="$anat2D/Examples/checkerboard/DATA_obs"
+
+### model paths
+target_velocity_dir="$anat2D/Examples/checkerboard/model_true_bin"
+initial_velocity_dir="$anat2D/Examples/checkerboard/model_init_bin"
+
+### forward modeling
+# number of samples in data
+NSTEP=8000
+# sample rate
+deltat=0.025 #s  
+f0=0.5
+# number of receivers
+NREC=48
+# number of sources
+NSRC=1
+# measurement (x,y,z,p)
+data_list='z'
+
+### kernel construction
+# measurement type (CC WD ET ED IP MT MA) 
+measurement_list=MT
+# misfit_type (AD, DD, AD+DD)
+misfit_type_list=AD
+# similarity threshold for DD 
+cc_threshold=0.90
+
+## inversion parameters
+kernel_list='beta_kernel,alpha_kernel,rho_kernel'
+precond=false
+precond_list='Hessian1_kernel'
+z_precond=0.5
+model_list='vs'
+
+
+# empire_function
+empire_function=true
+
+initial_step_length=0.005
+max_step=10
+
+# optimization(SD CG QN)
+opt_scheme=QN
+
+# iteration limit
+iter_start=1
+iter_end=1
+
+### preprocessing
+MUTE_NEAR=false
+offset_near=5000    
+
+Wscale=0
+wavelet_path="$anat2D/anat2D/lib/WT_basis"
+
+TIME_WINDOW=true
+VEL_TOP=4200
+VEL_BOT=3400
+
+IS_BANDPASS=true
+num_filter=6
+Fmin1=35
+Fmax1=20
+Fmin2=30
+Fmax2=15
+Fmin3=20
+Fmax3=10
+Fmin4=15
+Fmax4=9
+Fmin5=12
+Fmax5=6
+Fmin6=8
+Fmax6=2
+#### postprocessing
+TRACE_NORMALIZE=false
+# smooth
+smooth=true
+sigma_x=30000
+sigma_z=10000
+sigma_x_rate=0.0
+sigma_z_rate=0.0
+
+## Display details
+DISPLAY_DETAILS=true
+DISPLAY_TRACES=true
