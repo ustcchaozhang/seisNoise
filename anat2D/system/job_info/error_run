@@ -1,0 +1,80 @@
+pbsdsh: spawned task 0
+pbsdsh: spawned task 1
+pbsdsh: spawned task 2
+pbsdsh: spawned task 3
+pbsdsh: spawned task 4
+pbsdsh: spawned task 5
+pbsdsh: spawned task 6
+pbsdsh: spawned task 7
+pbsdsh: spawned task 8
+pbsdsh: spawned task 9
+pbsdsh: spawned task 10
+pbsdsh: spawned task 11
+pbsdsh: spawned task 12
+pbsdsh: spawned task 13
+pbsdsh: spawned task 14
+pbsdsh: spawned task 15
+pbsdsh: spawn event returned: 0 (16 spawns and 0 obits outstanding)
+pbsdsh: sending obit for task 2
+pbsdsh: spawn event returned: 1 (15 spawns and 1 obits outstanding)
+pbsdsh: sending obit for task 3
+pbsdsh: spawn event returned: 2 (14 spawns and 2 obits outstanding)
+pbsdsh: sending obit for task 4
+pbsdsh: spawn event returned: 3 (13 spawns and 3 obits outstanding)
+pbsdsh: sending obit for task 5
+pbsdsh: spawn event returned: 4 (12 spawns and 4 obits outstanding)
+pbsdsh: sending obit for task 6
+pbsdsh: spawn event returned: 5 (11 spawns and 5 obits outstanding)
+pbsdsh: sending obit for task 7
+pbsdsh: spawn event returned: 6 (10 spawns and 6 obits outstanding)
+pbsdsh: sending obit for task 8
+pbsdsh: spawn event returned: 7 (9 spawns and 7 obits outstanding)
+pbsdsh: sending obit for task 9
+pbsdsh: spawn event returned: 8 (8 spawns and 8 obits outstanding)
+pbsdsh: sending obit for task 10
+pbsdsh: spawn event returned: 9 (7 spawns and 9 obits outstanding)
+pbsdsh: sending obit for task 11
+pbsdsh: spawn event returned: 10 (6 spawns and 10 obits outstanding)
+pbsdsh: sending obit for task 12
+pbsdsh: spawn event returned: 11 (5 spawns and 11 obits outstanding)
+pbsdsh: sending obit for task 13
+pbsdsh: spawn event returned: 12 (4 spawns and 12 obits outstanding)
+pbsdsh: sending obit for task 14
+pbsdsh: spawn event returned: 13 (3 spawns and 13 obits outstanding)
+pbsdsh: sending obit for task 15
+pbsdsh: spawn event returned: 14 (2 spawns and 14 obits outstanding)
+pbsdsh: sending obit for task 16
+pbsdsh: spawn event returned: 15 (1 spawns and 15 obits outstanding)
+pbsdsh: sending obit for task 17
+pbsdsh: obit event returned: 0 (0 spawns and 16 obits outstanding)
+pbsdsh: task 0 exit status 0
+pbsdsh: obit event returned: 1 (0 spawns and 15 obits outstanding)
+pbsdsh: task 1 exit status 0
+pbsdsh: obit event returned: 2 (0 spawns and 14 obits outstanding)
+pbsdsh: task 2 exit status 0
+pbsdsh: obit event returned: 3 (0 spawns and 13 obits outstanding)
+pbsdsh: task 3 exit status 0
+pbsdsh: obit event returned: 4 (0 spawns and 12 obits outstanding)
+pbsdsh: task 4 exit status 0
+pbsdsh: obit event returned: 5 (0 spawns and 11 obits outstanding)
+pbsdsh: task 5 exit status 0
+pbsdsh: obit event returned: 6 (0 spawns and 10 obits outstanding)
+pbsdsh: task 6 exit status 0
+pbsdsh: obit event returned: 7 (0 spawns and 9 obits outstanding)
+pbsdsh: task 7 exit status 0
+pbsdsh: obit event returned: 8 (0 spawns and 8 obits outstanding)
+pbsdsh: task 8 exit status 0
+pbsdsh: obit event returned: 9 (0 spawns and 7 obits outstanding)
+pbsdsh: task 9 exit status 0
+pbsdsh: obit event returned: 10 (0 spawns and 6 obits outstanding)
+pbsdsh: task 10 exit status 0
+pbsdsh: obit event returned: 11 (0 spawns and 5 obits outstanding)
+pbsdsh: task 11 exit status 0
+pbsdsh: obit event returned: 12 (0 spawns and 4 obits outstanding)
+pbsdsh: task 12 exit status 0
+pbsdsh: obit event returned: 13 (0 spawns and 3 obits outstanding)
+pbsdsh: task 13 exit status 0
+pbsdsh: obit event returned: 14 (0 spawns and 2 obits outstanding)
+pbsdsh: task 14 exit status 0
+pbsdsh: obit event returned: 15 (0 spawns and 1 obits outstanding)
+pbsdsh: task 15 exit status 0

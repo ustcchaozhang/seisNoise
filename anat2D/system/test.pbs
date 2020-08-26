@@ -1,0 +1,12 @@
+ulimit -s unlimited
+
+module load intel intelmpi
+
+spec_path=$HOME/specfem2d
+cd $spec_path
+./configure FC=ifort MPIFC=mpif90 --with-mpi
+make all
+cd $PBS_O_WORKDIR
+
+mpirun -np 2 $HOME/software/specfem2d/bin/xmeshfem2D
+mpirun -np 2 $HOME/software/specfem2d/bin/xspecfem2D
